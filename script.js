@@ -8,12 +8,12 @@ const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
 const navButtons = document.querySelector(".nav-buttons");
 
-// Debounced search
+// Debounced search (500ms delay)
 searchBox.addEventListener("input", function() {
-    clearTimeout(debounceTimeout); // Clear previous timeout
+    clearTimeout(debounceTimeout);
     debounceTimeout = setTimeout(() => {
         performSearch();
-    }, 300); // 300ms delay
+    }, 500);
 });
 
 function performSearch() {
@@ -39,7 +39,7 @@ function performSearch() {
         });
 
         if (matches.length > 0) {
-            searchResults.innerText = `${matches.length} result(s) found.`;
+            searchResults.innerText = `1/${matches.length} result(s) found.`;
             searchResults.classList.remove("hidden");
             navButtons.classList.remove("hidden");
             scrollToMatch(0);
@@ -54,20 +54,22 @@ function performSearch() {
     }
 }
 
+// Scroll to and highlight matches
 function scrollToMatch(index) {
     if (matches.length > 0) {
         if (index < 0) index = matches.length - 1;
         if (index >= matches.length) index = 0;
 
         currentIndex = index;
-        matches[currentIndex].scrollIntoView({
-            behavior: 'smooth',
-            block: 'center'
-        });
+        matches[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
         highlightCurrent();
+
+        // Update result count (e.g., 3/22)
+        searchResults.innerText = `${currentIndex + 1}/${matches.length} result(s) found.`;
     }
 }
 
+// Highlight the current match
 function highlightCurrent() {
     document.querySelectorAll('.highlight').forEach(el => el.classList.remove('current'));
     let highlighted = matches[currentIndex].querySelectorAll('.highlight');
@@ -76,6 +78,7 @@ function highlightCurrent() {
     }
 }
 
+// Navigation (Previous and Next)
 prevBtn.addEventListener("click", function() {
     scrollToMatch(currentIndex - 1);
 });
