@@ -1,0 +1,396 @@
+I have attached my current PowerPoint presentation about loan prepayment / early repayment conditions. Please redesign and improve the entire presentation while preserving the core research, data, and business logic from my attached file.
+
+The presentation is for senior bank management / Deputy CEO level, so it must look professional, executive, concise, analytical, and decision-oriented.
+
+PURPOSE OF THE PRESENTATION
+
+The bank sometimes raises long-term foreign funding at a relatively low interest rate and uses that funding to issue long-term loans.
+
+The problem is:
+
+For example, if the bank raises a 20-year foreign funding source and provides a 20-year loan, but the customer fully repays the loan after 15 years, the bank stops receiving loan interest income after year 15. However, if the bank cannot repay the original foreign funding early, it must continue paying the funding cost for the remaining 5 years.
+
+The released funds may also be difficult to reinvest under the same conditions.
+
+Therefore, the presentation must answer:
+
+On which loan products should the bank consider restrictions, fees, or compensation mechanisms for early repayment, and how can the bank protect itself from funding losses without creating unreasonable restrictions for customers?
+
+⸻
+
+PRESENTATION STRUCTURE
+
+Create approximately 6 main slides, excluding appendix if necessary.
+
+Slide 1 — Title / Executive opening
+
+Title:
+
+ЗЭЭЛИЙГ ХУГАЦААНААС НЬ ӨМНӨ ТӨЛӨХ НӨХЦӨЛ
+
+Subtitle:
+
+Банкны эх үүсвэр, ашигт ажиллагаанд үзүүлэх нөлөөлөл, олон улсын практик ба хэрэгжүүлэх боломж
+
+Design:
+
+* Strong executive banking style
+* Dark navy / deep blue
+* White background where appropriate
+* Minimal cyan / light blue accent
+* High-end consulting / investment banking presentation
+* Do NOT use cartoonish illustrations
+* Use clean financial icons, subtle lines, charts, timelines and data cards
+
+⸻
+
+Slide 2 — Банкны зээлийн бүтээгдэхүүний зураглал
+
+Show the bank’s loan portfolio as a filtering process.
+
+Visual logic:
+
+Нийт зээлийн бүтээгдэхүүн
+→ 24 сараас дээш хугацаатай бүтээгдэхүүн
+→ Гадаад эх үүсвэртэй бүтээгдэхүүн
+→ Хугацаанаас өмнөх төлөлтийн эрсдэлтэй бүтээгдэхүүн
+
+Include a professional table for long-term products.
+
+Columns:
+
+* Бүтээгдэхүүний нэр
+* Зээлийн хугацаа
+* Хүүгийн төрөл
+* Эх үүсвэр
+* Харилцагчийн төрөл
+* Урьдчилсан төлөлтийн эрсдэл
+
+Separate:
+
+* Retail
+* SME
+* Corporate
+* Project financing
+
+The key message should be:
+
+Бүх урт хугацаатай зээлд хязгаарлалт шаардлагагүй. Эх үүсвэрийн бүтэцтэй уялдуулан сонгох шаардлагатай.
+
+Use exact product information from the attached presentation where available. Do not invent bank-specific factual information unless clearly marked as an example.
+
+⸻
+
+Slide 3 — Гадаад эх үүсвэртэй зээлийг эх үүсвэрийн нөхцлөөр ангилах
+
+This is one of the most important slides.
+
+Split the slide into two large sections.
+
+A. Хугацаанаас өмнө эх үүсвэрээ буцаах боломжтой
+
+Show in green/light blue.
+
+Logic:
+
+Customer prepays loan
+↓
+Bank receives principal
+↓
+Foreign funding can also be repaid
+↓
+Funding mismatch risk is limited
+
+Message:
+
+Урьдчилсан төлөлтөөс банканд материаллаг funding loss үүсэх эрсдэл бага.
+
+B. Эх үүсвэрийг хугацаанаас өмнө буцаах боломжгүй
+
+Show in red / soft warning color.
+
+Logic:
+
+Customer prepays loan
+↓
+Loan interest income stops
+↓
+Foreign funding remains outstanding
+↓
+Bank continues paying funding interest
+↓
+Released funds must be reinvested
+↓
+If reinvestment yield is lower → Negative carry / Funding loss
+
+Include a table:
+
+* Зээлийн бүтээгдэхүүн
+* Эх үүсвэрийн хугацаа
+* Early repayment of funding possible?
+* Break cost
+* Reinvestment flexibility
+* Risk level
+
+Highlight:
+
+Урьдчилсан төлөлтийн нөхцөл хамгийн түрүүнд энэ ангиллын бүтээгдэхүүнд шаардлагатай.
+
+⸻
+
+Slide 4 — Банканд үүсэх алдагдлын бодит механизм
+
+Make this slide highly visual.
+
+Use a horizontal timeline.
+
+Example:
+
+0 жил → 15 жил → 20 жил
+
+At year 0:
+
+* Foreign funding raised
+* Loan disbursed
+
+Example assumptions:
+
+* Loan principal: 100 тэрбум ₮
+* Loan maturity: 20 years
+* Loan rate: 7%
+* Foreign funding cost: 3%
+
+At year 15:
+
+CUSTOMER FULLY REPAYS
+
+From year 15 to year 20:
+
+* Loan interest income = 0
+* Foreign funding interest continues
+* Remaining funding must be reinvested
+
+Show two scenarios:
+
+Scenario 1
+
+Reinvestment yield = funding cost
+→ Limited loss
+
+Scenario 2
+
+Reinvestment yield < funding cost
+→ Negative carry
+
+Formula:
+
+Funding loss ≈ Released principal × (Funding cost − Reinvestment yield) × Remaining maturity
+
+Also show:
+
+Loss is not caused simply because the customer prepaid.
+Loss arises when funding cannot be repaid and the released funds cannot be reinvested at an equivalent return.
+
+This distinction is extremely important.
+
+Use the actual historical prepayment and released-funding information from the attached presentation where appropriate.
+
+⸻
+
+Slide 5 — Олон улсын практик
+
+Create a premium comparison table using four international examples already contained in the attached presentation:
+
+Fannie Mae — USA
+
+Real estate / mortgage financing
+
+Show:
+
+* Initial lock-in / restriction
+* Prepayment conditions
+* Fixed-rate funding logic
+
+SBA 7(a) — USA
+
+Long-term SME loans
+
+Show:
+
+* Loans with maturity over 15 years
+* Large early repayments
+* Graduated prepayment charge:
+    * Year 1: 5%
+    * Year 2: 3%
+    * Year 3: 1%
+
+World Bank IBRD
+
+Project / sovereign financing
+
+Show:
+
+* Advance notice
+* Actual funding/break cost approach
+* If no financial loss arises, fee may not apply
+
+Halifax — UK
+
+Fixed-rate mortgage
+
+Show:
+
+* Annual penalty-free partial prepayment allowance
+* Early repayment charge above the allowance
+
+At the bottom, summarize the international mechanisms in four clean cards:
+
+1. Lock-in period
+2. Penalty-free partial repayment
+3. Break cost / Prepayment fee
+4. Lender consent / product-level restrictions
+
+Key message:
+
+Олон улсын практикт бүх зээлд нэг ижил торгууль ногдуулдаггүй. Зээлийн хугацаа, хүүгийн төрөл, эх үүсвэрийн бүтэц болон банканд үүсэх бодит зардалтай уялдуулдаг.
+
+Use the sources already contained in my attached presentation and keep the source references in small footer text.
+
+⸻
+
+Slide 6 — Монголд хэрэгжүүлэх боломж, хууль ба санал
+
+Divide the slide into three parts.
+
+1. Хууль эрх зүйн орчин
+
+Summarize the Mongolian legal provisions already referenced in the attached presentation.
+
+Do NOT make an unsupported legal conclusion.
+
+Clearly distinguish:
+
+* current legal provisions
+* interpretation / legal risk
+* recommendation requiring Legal Department confirmation
+
+Important concepts:
+
+* Early performance of obligations
+* Loan agreement terms
+* Fees must be contractually disclosed
+* Interest based on actual usage period
+* Risk of unfair standard contractual terms
+
+Use wording such as:
+
+“Эцсийн хэрэгжилтийн нөхцөлийг Хууль, Комплаенсийн нэгжээр баталгаажуулах шаардлагатай.”
+
+⸻
+
+2. Аль бүтээгдэхүүнд хэрэглэх вэ?
+
+Do NOT recommend applying a penalty to all loans.
+
+Create a selection matrix.
+
+Highest priority:
+
+* Long-term loan
+* Foreign-funded loan
+* Funding cannot be prepaid
+* Fixed / concessional interest rate
+* Project financing
+* Syndicated financing
+* Large corporate exposure
+* Long remaining maturity
+
+Low priority:
+
+* Short-term loan
+* Internal funding
+* Funding can be repaid immediately
+* Easy reinvestment
+* Floating-rate products
+
+⸻
+
+3. Санал болгож буй механизм
+
+Present four mechanisms visually:
+
+1. Lock-in period
+Example:
+First 12–24 months
+
+2. Penalty-free partial prepayment
+Example:
+Up to a predetermined percentage per year
+
+3. Break cost / Prepayment fee
+Fee linked to the bank’s actual funding or reinvestment loss rather than an arbitrary penalty
+
+4. Product-level system configuration
+Evaluate whether Temenos / Transact can support different prepayment rules by product
+
+Final recommendation statement:
+
+Нэг төрлийн торгууль бүх зээлд нэвтрүүлэхээс илүүтэй, хугацаанаас өмнө буцаах боломжгүй гадаад эх үүсвэртэй, урт хугацаатай бүтээгдэхүүнүүдэд эрсдэлд суурилсан prepayment framework нэвтрүүлэх хувилбарыг судлах нь зохистой.
+
+⸻
+
+OPTIONAL APPENDIX
+
+Move detailed raw tables to appendix instead of overcrowding the main slides.
+
+Possible appendix:
+
+* Early repayment customer counts
+* COR / SME split
+* Released funding
+* Remaining maturity buckets
+* Estimated reinvestment loss
+* DFC-funded loans
+* Detailed international sources
+
+⸻
+
+DESIGN REQUIREMENTS
+
+The presentation must feel like a senior management / Board presentation produced by a major bank or consulting firm.
+
+Use:
+
+* 16:9 widescreen
+* White + navy design system
+* Dark navy headers
+* Light blue accents
+* Green for positive / manageable risk
+* Red only for material risk / loss
+* Large numbers
+* Clean tables
+* Minimal text
+* Strong hierarchy
+* Professional financial icons
+* Timelines
+* Process flows
+* Risk matrices
+* Small source footers
+
+Avoid:
+
+* Large paragraphs
+* Generic stock-photo-heavy slides
+* Cartoon graphics
+* Excessive gradients
+* Too many colors
+* Dense Excel-style tables on main slides
+* Decorative visuals that do not explain the analysis
+
+Each slide must communicate one main message within 5–10 seconds.
+
+Use Mongolian for all presentation text.
+
+Where my original presentation contains valid quantitative information, use it exactly. Where information is missing, use clearly labelled placeholders such as XX, rather than fabricating bank-specific data.
+
+Most importantly, redesign the presentation rather than simply copying the existing slide layout.
